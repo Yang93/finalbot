@@ -74,7 +74,7 @@ elsif body.include?("cancel") or body.include?("change")
 elsif body.include?("thanks") || body.include?("thank you")
   message = "You are very welcome! I'm Glad to help!"
 else
-  puts "Sorry, can you say it one more time? I didn't get it. "
+  message = "Sorry, can you say it one more time? I didn't get it. "
 end
 
 
